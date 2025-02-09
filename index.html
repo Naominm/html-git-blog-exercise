@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Git</title>
+</head>
+<body>
+    <h1>Everyday Git</h1>
+    <h2>Getting Started</h2>
+    <p>Welcome to <em>Everyday Git!</em> In this blog,
+         we'll walk you through the basics of Git and
+          how to use it effectively. Let’s begin by setting up our development environment.</p>
+          <ol>
+            <li><h3>Setting Up Your Development Environment</h3></li>
+            <div>
+                <p>Head over to <a href="https://code.visualstudio.com/">code.visualstudio.com</a></p>
+            </div>
+            <ul>
+                <li><p>Click on the download button to download visual studio code based on your operating system.</p></li>
+                <li><p>Once download is complete,install. </p> </li>
+                <li> <p>Open vs code and click on explorer at the sidebar</p></li>
+                <li>
+                    <p>create a new folder bey clicking new folder icon. give it a name</p></li>
+                    <li><p>inside the folder create a new file index.html</p></li>
+            </ul> 
+          </ol>
+          <h2>Getting Started</h2>
+          <p>Git is a <b>distributed version control system</b> used to track changes in files and coordinate work among developers.</p>
+          <h3>What is a Version Control System (VCS)?</h3>
+          <p>A VCS is a tool that allows developers to:</p>
+          <ul>
+            <li>Track changes made to files.</li>
+            <li>Revert to previous versions if needed.</li>
+            <li>Collaborate seamlessly on projects.</li>
+          </ul>
+        <p>other version control system include:</p>
+        <ul>
+            <li>Subversion (SVN)</li>
+            <li>Mercurial</li>
+            <li>Perforce</li>
+        </ul>
+        <h2>Installing Git</h2>
+        <h3>Checking whether Git is Installed</h3>
+        <p>Run the following command in your Terminal</p>
+        <p>git --version</p>
+        <figure>
+          <img src="./assets/images/gitversion.png" alt="a snapshot of the git--version command on Windows">
+          <figcaption>
+          <em>checking whether a directory contains a git repository</em>
+          </figcaption>
+        </figure>
+       
+
+        <p>If it is instaled it will displa the installed version</p>
+        <h3>Installing Git</h3>
+        <p>If Git is not installed, follow these steps:</p>
+       <ol>
+        <li>Go to Git’s  <a href="https://git-scm.com/">official website.</a></li>
+        <li>Download and install the appropriate version for your operating system (Windows, macOS, or Linux).</li>
+       </ol>
+       <h3>configuring Git</h3>
+       <p>After installation configure Git with your username and email adress</p>
+       <ol>
+        <li>Set your username:</li>
+        <p>git config --global user.name "Your Name" (replace "your Name" with your actual github username)</p>
+        <figure>
+          <img src="./assets/images/username.png" alt="a terminal snapshot of setting  git usename">
+          <figcaption><em>setting  git usename</em></figcaption>
+        </figure>
+      <li>Set your email</li>
+      <p>git config --global user.email "youremail@example.com" ("Replace it with your actual github email")</p>
+       </ol>
+       <figure>
+        <img src="./assets/images/email.png" alt="a snapshot of the terminal cofiguring git with email">
+        <figcaption><em>cofiguring git with email</em></figcaption>
+       </figure>
+       <h2>Initializing a Git Repository</h2>
+       <h3>What is a Git Repository?</h3>
+       <p>A Git repository is a storage space where Git tracks changes to your files.</p>
+       <h3>How to Initialize</h3>
+       <ol>
+        <li>Navigate to your project folder in the terminal.
+        </li>
+        <li>Run:</li>
+       </ol>
+       <figure>
+        <img src="./assets/images/gitinit.png" alt="a snapshot for initializing a git repository">
+        <figcaption><em>initializing a git repository</em></figcaption>
+       </figure>
+
+       <h2> Adding files to the staging area</h2>
+       <h3>What is the Staging Area?</h3>
+       <p>The staging area is a space where Git prepares changes before committing them.</p>
+       <h3>steps to add files</h3>
+       <ol> 
+        <li><p>To stage a single file:
+        </p></li>
+          <p> git add filename</p>
+      <figure>
+        <img src="./assets/images/stagingSingleFile.png" alt="a snapshot foor stagging a single file">
+        <figcaption><em>staging a single file</em></figcaption>
+      </figure>
+      <li>To stage  all files</li>
+      <p>git add .</p>
+      <figure>
+        <img src="./assets/images/stagingall.png" alt="a snapshot for staging all the files">
+      </figure>
+      <figcaption><em>stagging all files</em></figcaption>
+       </ol>
+       <h3>Tracked vs Untracked files</h3>
+       <ul>
+        <li><b>Tracked files:</b> Files already added to Git's tracking system.
+</li>
+<li> <b>Untracked files:</b>  New files not yet added to Git.</li>
+       </ul>
+       <h2>Commiting Changes</h2>
+       <h3>What is a commit?</h3>
+       <p>A commit is a snapshot of your project at a particular time.</p>
+       <h3>Steps to commit</h3>
+       <p>Commit changes with a message</p>
+       <figure>
+        <img src="./assets/images/commit.png" alt="a command on how to commit">
+        <figcaption><em>a command to commit changes</em></figcaption>
+       </figure>
+       <h3>Viewing Past Commits</h3>
+<figure>
+  <img src="./assets/images/" alt="a snapshot of viewing past commits">
+  <figcaption><em>sample commit log</em>
+
+  </figcaption>
+</figure>
+<h3>Reverting to a Previous Commit</h3>
+<p>git checkout commit-hash
+</p>
+<figure>
+  <img" alt="">
+  <figcaption>
+    <em></em>
+  </figcaption>
+</figure>
+</body>
+</html>
+
+
+

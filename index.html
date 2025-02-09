@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everyday Git</title>
+    
 </head>
-<body>
-    <h1>Everyday Git</h1>
-    <h2>Getting Started</h2>
+<body style="background-color: rgb(220, 228, 225);">
+  <div id="container" style="margin-left: 30px;">
+    <h1 style="text-align: center;">Everyday Git</h1>
+    <h2>1. Getting Started</h2>
     <p>Welcome to <em>Everyday Git!</em> In this blog,
          we'll walk you through the basics of Git and
           how to use it effectively. Let’s begin by setting up our development environment.</p>
@@ -25,7 +27,7 @@
                     <li><p>inside the folder create a new file index.html</p></li>
             </ul> 
           </ol>
-          <h2>Getting Started</h2>
+          <h2>2. What is Git</h2>
           <p>Git is a <b>distributed version control system</b> used to track changes in files and coordinate work among developers.</p>
           <h3>What is a Version Control System (VCS)?</h3>
           <p>A VCS is a tool that allows developers to:</p>
@@ -40,7 +42,7 @@
             <li>Mercurial</li>
             <li>Perforce</li>
         </ul>
-        <h2>Installing Git</h2>
+        <h2>3. Installing Git</h2>
         <h3>Checking whether Git is Installed</h3>
         <p>Run the following command in your Terminal</p>
         <p>git --version</p>
@@ -56,10 +58,10 @@
         <h3>Installing Git</h3>
         <p>If Git is not installed, follow these steps:</p>
        <ol>
-        <li>Go to Git’s  <a href="https://git-scm.com/">official website.</a></li>
+        <li>Go to Git’s  <a href="https://git-scm.com/">official website.</a></li><br>
         <li>Download and install the appropriate version for your operating system (Windows, macOS, or Linux).</li>
        </ol>
-       <h3>configuring Git</h3>
+       <h3>4.Configuring Git</h3>
        <p>After installation configure Git with your username and email adress</p>
        <ol>
         <li>Set your username:</li>
@@ -75,13 +77,19 @@
         <img src="./assets/images/email.png" alt="a snapshot of the terminal cofiguring git with email">
         <figcaption><em>cofiguring git with email</em></figcaption>
        </figure>
-       <h2>Initializing a Git Repository</h2>
+       <h3>check if git exist in you directory</h3>
+       <p>Run git status</p>
+       <figure>
+        <img src="./assets/images/status.png" alt="checking if there exista git repository">
+        <figcaption><em>checking where there is a git repository</em></figcaption>
+       </figure>
+       <h2>5. Intializing a Git repository</h2>
        <h3>What is a Git Repository?</h3>
        <p>A Git repository is a storage space where Git tracks changes to your files.</p>
        <h3>How to Initialize</h3>
        <ol>
         <li>Navigate to your project folder in the terminal.
-        </li>
+        </li><br>
         <li>Run:</li>
        </ol>
        <figure>
@@ -89,7 +97,7 @@
         <figcaption><em>initializing a git repository</em></figcaption>
        </figure>
 
-       <h2> Adding files to the staging area</h2>
+       <h2> 6. Adding files to the staging area</h2>
        <h3>What is the Staging Area?</h3>
        <p>The staging area is a space where Git prepares changes before committing them.</p>
        <h3>steps to add files</h3>
@@ -111,10 +119,10 @@
        <h3>Tracked vs Untracked files</h3>
        <ul>
         <li><b>Tracked files:</b> Files already added to Git's tracking system.
-</li>
+</li><br>
 <li> <b>Untracked files:</b>  New files not yet added to Git.</li>
        </ul>
-       <h2>Commiting Changes</h2>
+       <h2>7. Commiting changes</h2>
        <h3>What is a commit?</h3>
        <p>A commit is a snapshot of your project at a particular time.</p>
        <h3>Steps to commit</h3>
@@ -140,7 +148,7 @@
   <img src="./assets/images/rivert.png" alt="a snapshot of riverting to a previous commit">
   <figcaption><em>a sample of git rivert</em></figcaption>
 </figure>
-<h2>Branches</h2>
+<h2>8. Branches</h2>
 <p>Branches allows you to work on different versiopns of your project simutaneously. For example you can develop a new feature on a new branch without affecting the main branch</p>
 <h3>Creating Branches</h3>
 <p>create a branch using "git branch branch-name"</p>
@@ -176,9 +184,25 @@ git switch branch-name
 <p>Delete a branch you no longer need using:</p>
 <p>git branch -d branch-name
 </p>
-
+<figure>
+  <img src="./assets/images/deletebranch.png" alt="a snapshot for merging branches">
+  <figcaption><em>Deleting a branch</em></figcaption>
+</figure>
+<h2>Next Steps</h2>
+<p>Now that you’ve learned the basics of Git, here are the next steps:</p>
+<ul>
+  <li>
+    Explore GitHub for hosting your Git repositories.
+    </li>
+    <li>Learn about resolving merge conflicts.</li>
+    <li>
+      Practice collaborative workflows using pull requests.</li>
+</ul>
+</div>
 </body>
 </html>
 
 
 
+
+                            
